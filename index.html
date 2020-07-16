@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Eenzijdige schade</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+    <link rel="stylesheet" href="static/css/custom.css"/>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+<section class="hero is-primary is-fullheight">
+    <div class="hero-body">
+        <div class="container">
+
+            <div class="field has-text-centered">
+
+                <div class="tabs is-toggle is-toggle-rounded is-centered is-fullwidth">
+                    <ul id="tab">
+                         <li class="is-active">
+                            <a>
+                            <span class="icon is-small"><i class="fas fa-image"></i></span>
+                            <span>Eenzijdige schade</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a>
+                                <span class="icon is-small"><i class="fas fa-image"></i></span>
+                                <span>Voertuig</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span class="icon is-small"><i class="fas fa-music"></i></span>
+                                <span>Schade</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span class="icon is-small"><i class="fas fa-film"></i></span>
+                                <span>Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div  id="Eenzijdig">
+                    <div class="columns is-5-tablet is-4-desktop is-3-widescreen" >
+                            <div class="column">
+                                <div class="box">
+                                        <div class="container is-centered">
+                            
+                                                <article class="media">
+                                                        <figure class="media-left">
+                                                          <p class="image is-128x128">
+                                                            <img src="static/images/carcrash.png">
+                                                          </p>
+                                                        </figure>
+                                                        <div class="media-content">
+                                                          <div class="content">
+                                                            
+                                                    
+                                                                 <p class="title is-2" style="color:#363636;">Next Best Action bij eenzijdige schade</p>
+                                                                 <p>
+                                                                De schadebehandelaar, en later misschien de klant zelf, wordt geholpen door een combinatie van businesslogica en algoritmes. 
+                                                                Op basis van gegevens die bij de intake door de schadebehandelaar kunnen worden opgevraagd worden adviezen gegenereerd voor de best mogelijke vervolgstappen in het proces.
+                                                                <br>
+                                                                <ul>
+                                                                <li>Meer uniformiteit onder behandelaars</li>
+                                                                <li>Snellere afhandeling</li>
+                                                                <li>Minder verspilling</li>
+                                                                </ul>
+                                                                <br>
+                                                                Selecteer de situatie, haal de voertuiggegevens op, voer de schade in en bekijk de vervolgactie
+                                                                <br>
+
+
+                                    
+                                                            </p>
+                                                            <article class="message is-primary">
+                                                                    <div class="message-header">
+                                                                      <p>Selecteer de type schade</p>
+                                                                      
+                                                                    </div>
+                                                                    <div class="message-body" >
+     
+                                                              
+                                                            <nav class="level">
+                                                             <div class="level-item has-text-centered">
+                                                            <div class="field">
+                                                                    <div class="control is-centered">
+                                                                      <div class="select">
+                                                                        <select id=TYPESCHADE>
+                                                                          <option>Aanrijding met dieren</option>
+                                                                          <option>Brand</option>
+                                                                          <option>Eenzijdig ongeval</option>
+                                                                          <option>Inbraak</option>
+                                                                          <option>Storm Natuur</option>
+                                                                          <option>Van buitenkomend onheil</option>
+                                                                        </select>
+                                                                      </div>
+                                                                    </div>
+                                                            
+                                                        </div>
+                                                    </div>
+
+                                                                    <div class="level-item has-text-centered">
+                                                            <div class="field">
+                                                                    <div class="control is-centered">
+                                                                      <div class="select">
+                                                                        <select>
+                                                                                <option>Aanrijding met vogels </option>
+                                                                                <option>Artikel 185 WVW </option>
+                                                                                <option>Loslopend dier of vogel </option>
+                                                                                <option>Overstekend dier</option>
+                                                                                <option>Rampen </option>
+                                                                                <option>Blikseminslag </option>
+                                                                                <option>Eigen Gebrek</option>
+                                                                                <option>Kortsluiting  </option>
+                                                                                <option>Ontploffing </option>
+                                                                                <option>Overig / Vandalisme </option>
+                                                                                <option>Overslag naburige brand </option>
+                                                                                <option>Vandalisme</option>
+                                                                                <option>Zelfontbranding </option>
+                                                                                <option>Afvallende lading </option>
+                                                                                <option>Autoschade met WBF</option>
+                                                                                <option>Bekleding schade door transport gewond</option>
+                                                                                <option>Bevuild wegdek</option>
+                                                                                <option>Eenzijdig ongeval </option>
+                                                                                <option>Geen voorrang verleend</option>
+                                                                                <option>Instorten</option>
+                                                                                <option>Omslaan </option>
+                                                                                <option>Overig</option>
+                                                                                <option>Overig/onbekend </option>
+                                                                                <option>Parkeerschade </option>
+                                                                                <option>Pech  </option>
+                                                                                <option>Schroeischade </option>
+                                                                                <option>Storm </option>
+                                                                                <option>Te water raken</option>
+                                                                                <option>Vallend gesteente</option>
+                                                                                <option>Vallend vliegtuig </option>
+                                                                                <option>Van de weg raken</option>
+                                                                                <option>Diefstal partieel </option>
+                                                                                <option>Diefstal sleutels </option>
+                                                                                <option>Inbraak </option>
+                                                                                <option>Overig  </option>
+                                                                                <option>Verlies / Diefstal sleutels </option>
+                                                                                <option>Hagel </option>
+                                                                                <option>Overstroming </option>
+                                                                                <option>Rampen</option>
+                                                                                <option>Overig  </option>
+                                                                                <option>Rellen</option>
+                                                                                <option>Vandalisme</option>
+                                                                                
+                                                                                
+                                                                        </select>
+                                                                      </div>
+                                                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                        </nav>
+                                                    </div>
+                                                </article>
+                                                        <br><br><br><br><br><br>
+
+                                                          </div>
+                                                        </div>
+                                                    </article>
+
+                                        </div> 
+                                </div>        
+                            </div>
+                    </div>
+            </div>
+
+
+            <div  id="Voertuig">
+                <div class="columns is-5-tablet is-4-desktop is-3-widescreen" >
+                    <div class="column">
+                        <div class="box">
+
+                            <div class="field">
+                                <div class="field has-addons">
+                                    <div class="control">
+                                        <input id="kenteken" class="input" type="text" placeholder="Kenteken">
+                                    </div>
+                                    <div class="control">
+                                        <a class="button is-info" id="RDW">
+                                            RDW
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-container" style="height:300px; overflow-y: auto;">
+                                <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth" id="RDWDATA">
+                                  <!-- Your table content -->
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+           
+            <div  id="Schade">
+                <div class="columns is-5-tablet is-4-desktop is-3-widescreen" >
+                    <div class="column">
+                        <div class="box">
+                            
+                             <div class="container is-centered">
+                                    <nav class="level">
+                                        <div class="level-item">
+                                            <div class="image-map-container">
+                                                <img src="static/images/carmap.png" alt="Carmap" usemap="usemap=#image-map" width="500" height="500">
+                                            
+
+                                                <article class="message is-primary" id='krasdeuk'>
+                                                        <div class="message-header">
+                                                          <p>Details</p>
+                                                          <button class="delete" aria-label="delete" onclick="hidekrasdeuk()"></button>
+                                                        </div>
+                                                        <div class="message-body" >
+                                                                <nav class="level" id='kradeukoptions'>
+                                                                <label class="checkbox">
+                                                                        <input type="checkbox">
+                                                                        Deuk
+                                                                </label>
+                                                                <label class="checkbox">
+                                                                        <input type="checkbox">
+                                                                        Kras
+                                                                </label>
+                                                                </nav> 
+                                                        </div>
+                                                      </article>
+                                                
+                                                               
+                                                <div class="map-selector"></div>
+                                            </div>
+                                            <map name="image-map"  id="image-map">   
+                                                    <area target="" alt="achterkant" title="achterkant" href="#" coords="2,202,128,297" shape="rect">
+                                                    <area target="" alt="linkerachterkant" title="linkerachterkant" href="#" coords="2,134,129,197" shape="rect">
+                                                    <area target="" alt="rechterachterkant" title="rechterachterkant" href="#" coords="2,301,127,365" shape="rect">
+                                                    <area target="" alt="linkerzijkant" title="linkerzijkant" href="#" coords="132,134,358,198" shape="rect">
+                                                    <area target="" alt="rechterzijkant" title="rechterzijkant" href="#" coords="131,301,358,366" shape="rect">
+                                                    <area target="" alt="rechtervoorkant" title="rechtervoorkant" href="#" coords="361,302,498,365" shape="rect">
+                                                    <area target="" alt="linkervoorkant" title="linkervoorkant" href="#" coords="361,135,498,199" shape="rect">
+                                                    <area target="" alt="voorkant" title="voorkant" href="#" coords="379,201,500,298" shape="rect">
+                                                    <area target="" alt="dak" title="dak" href="#" coords="130,202,297,298" shape="rect">
+                                                    <area target="" alt="voorruit" title="voorruit" href="#" coords="300,202,376,299" shape="rect">
+                                             </map>
+                                        </div>
+                                    </nav>
+                                    <nav class="level">
+                                            <div class="level-item has-text-centered">
+                                                    <label class="checkbox">
+                                                            <input type="checkbox">
+                                                            <b>Ruiten</b>
+                                                          </label>
+                                            </div>
+                                            <div class="level-item has-text-centered">
+                                                    <label class="checkbox">
+                                                            <input type="checkbox">
+                                                            <b>Binnenkant</b>
+                                                          </label>
+                                            </div>
+                                            <div class="level-item has-text-centered">
+                                                    <label class="checkbox">
+                                                            <input type="checkbox">
+                                                            <b>Onderkant</b>
+                                                          </label>
+                                            </div>
+                                            <div class="level-item has-text-centered">
+                                                    <label class="checkbox">
+                                                            <input type="checkbox">
+                                                            <b>Total loss</b>
+                                                          </label>
+                                            </div>
+                                          </nav>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                
+            </div>
+
+
+            <div  id="Next">
+                    <div class="columns is-5-tablet is-4-desktop is-3-widescreen" >
+                            <div class="column">
+                                <div class="box">
+                                        <div class="container is-centered">
+                            
+                                                <article class="media">
+                                                        <figure class="media-left">
+                                                          <p class="image is-128x128">
+                                                            <img src="static/images/ai.png">
+                                                          </p>
+                                                        </figure>
+                                                        <div class="media-content">
+                                                          <div class="content" id=adviescontainer>
+                                                                <p class="title is-2" style="color:#363636;">Advies van de AIyoub</p>
+                                                            <p id="advies">
+                                                              De geschatte schade omvang is <strong>tussen 1800 en 3200 euro</strong> op basis van 94 vergelijkbare schades
+                                                              <br>
+                                                              Omdat de spreiding in soortgelijke schades vrij groot is, is het advies <strong>expertise</strong> in te schakelen.
+                                                              Indien de nota aanwezig is, is het aanbevolen <strong>notacontrole</strong> toegepast worden. 
+                                                              <br>
+                                                              <br>
+                                                              of verwijs naar een aangesloten hersteller:
+                                                              <br>
+                                                              <br>
+                                                              <button class="button is-primary" onclick="window.open('https://www.centraalbeheer.nl/verzekeringen/autoverzekering/schadeherstellers')">Aangesloten herstellers</button>
+                                                              <br><br><br><br><br>
+                                                            </p>
+                                                          </div>
+                                                        </div>
+                                                    </article>
+
+                                        </div> 
+                                </div>        
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+
+<script async type="text/javascript" src="static/js/script.js"></script>
+
+</html>
