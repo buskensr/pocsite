@@ -1,6 +1,7 @@
 
 function getRDW(kenteken) {
-        $.get("https://opendata.rdw.nl/resource/m9d7-ebf2.json?kenteken=" + kenteken, function (data) {
+        
+        $.get("https://opendata.rdw.nl/resource/aq35-ccn7.json?kenteken=" + kenteken, function (data) {
         console.log(JSON.stringify(data[0]))
 
         //$("#RDWDATA").append("<p></p>")
